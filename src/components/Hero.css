@@ -1,0 +1,28 @@
+.main_hero {
+    background: url(../../public/images/home01.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 92vh;
+    padding: 20vh 10vw;
+}
+.main_hero h1 {
+    font-size: 4.3rem;
+    color: #fff;
+    text-shadow: 1px 1px 20px #000;
+    text-transform: uppercase;
+}
+.main_hero button {
+    font-size: 20px;
+    padding: 16px 32px;
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    background: #024d4d;
+    color: #fff;
+    transition: 0.2s;
+}
+.main_hero button:hover {
+    cursor: pointer;
+    background: #037070;
+}

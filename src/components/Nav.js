@@ -20,10 +20,10 @@ function Nav() {
                 <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
             </div>
             <ul className={click ? "nav_list active" : 'nav_list'}>
-                <li><Link to='home' className='list_item'>Home</Link></li>
-                <li><Link to='menu' className='list_item'>Menu</Link></li>
-                <li><Link to='about' className='list_item'>About</Link></li>
-                <li><Link to='contact' className='list_item'>Contact</Link></li>
+                <li><Link to='/' className='list_item'>Home</Link></li>
+                <li><Link to='/product' className='list_item'>Product</Link></li>
+                <li><Link to='/about' className='list_item'>About</Link></li>
+                <li><Link to='/contact' className='list_item'>Contact</Link></li>
             </ul>
 
         </nav>

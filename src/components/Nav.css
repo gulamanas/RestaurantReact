@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     height: 8vh;
-    background: chartreuse;
+    background: #024d4d;
 }
 .navbar_brand {
     font-size: 24px;
@@ -12,13 +12,14 @@
 }
 .brand {
     text-decoration: none;
-    color: chocolate;
+    color: #fff;
 }
 .burger {
     font-size: 30px;
     padding: 10px;
     cursor: pointer;
     display: none;
+    color: #fff;
     margin-right: 3rem;
 }
 .nav_list {
@@ -33,7 +34,7 @@
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
-    color: #000;
+    color: #fff;
 }
 
 @media screen and (max-width: 800px) {
@@ -46,17 +47,12 @@
         flex-direction: column;
         top: 8vh;
         align-items: center;
-        background: red;
+        background: #024d4d;
         transform: scaleY(0);
         transform-origin: top;
         transition: 0.3s;
     }
     .nav_list.active {
         transform: scaleY(1);
-    }
-    .fa-times {
-        transition: 0.3s;
-    }
-    .fa-bars {
     }
 }
