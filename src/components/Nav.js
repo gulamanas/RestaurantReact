@@ -13,7 +13,7 @@ function Nav() {
         <nav className='navbar'>
             <div className="navbar_brand">
                 <Link to="/" className='brand'>
-                    RESTRO <i className="fas fa-utensils"></i>
+                    RR. <i className="fas fa-utensils"></i>
                 </Link>
             </div>
             <div className="burger" onClick={handleBurgerMenu}>

@@ -4,7 +4,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     height: 92vh;
-    padding: 20vh 10vw;
+    padding: 25vh 10vw 0;
 }
 .main_hero h1 {
     font-size: 4.3rem;
@@ -21,6 +21,7 @@
     background: #024d4d;
     color: #fff;
     transition: 0.2s;
+    margin-top: 30px;
 }
 .main_hero button:hover {
     cursor: pointer;
