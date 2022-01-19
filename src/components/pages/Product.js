@@ -1,10 +1,11 @@
 import React from 'react'
+import Cards from '../Cards'
 
 function Product() {
     return (
-        <div>
-            <h1>Product Menu</h1>
-        </div>
+        <>
+            <Cards />
+        </>
     )
 }
 

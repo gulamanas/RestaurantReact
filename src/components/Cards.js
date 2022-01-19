@@ -1,17 +1,19 @@
 import React from 'react'
+import CardItem from './CardItem'
 
 function Cards() {
     return (
         <div className='cards'>
-            <div className="cards_wrapper">
-                <div className="cards_img">
-                    <img src="" alt="" />
+            <h2 className="card_header">
+                <div className="cards_container">
+                    <CardItem
+                        src='images/home01.jpg'
+                        text='Burger'
+
+                    />
                 </div>
-                <div className="cards_content">
-                    <p className='cards_item_text'></p><span className='cards_item_price'></span>
-                    <p className='cards_item_details'></p>
-                </div>
-            </div>
+            </h2>
+
         </div>
     )
 }
