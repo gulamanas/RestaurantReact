@@ -1,7 +1,7 @@
-.card_item {
-    width: 400px;
-    height: 400px;
+.cards {
+    margin-top: 15vh;
 }
-.cards_img img {
-    width: 100%;
+.cards_container {
+    display: flex;
+    justify-content: center;
 }

@@ -1,5 +1,5 @@
 import React from 'react'
-import './Cards.css'
+import './CardItem.css'
 
 function CardItem(props) {
     return (
@@ -9,8 +9,17 @@ function CardItem(props) {
                     <img src={props.src} alt="" />
                 </div>
                 <div className="cards_content">
-                    <p className='cards_item_text'>{props.text}</p><span className='cards_item_price'></span>
-                    <p className='cards_item_details'></p>
+                    <div className="cards_name">
+                        <p className='cards_item_text'>
+                            {props.text}
+                        </p>
+                        <p className='cards_item_price'>
+                            {props.price}
+                        </p>
+                    </div>
+                    <p className='cards_item_details'>
+                        {props.details}
+                    </p>
                 </div>
             </div>
         </div>

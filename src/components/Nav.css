@@ -4,6 +4,10 @@
     align-items: center;
     height: 8vh;
     background: #024d4d;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 99;
 }
 .navbar_brand {
     font-size: 24px;
