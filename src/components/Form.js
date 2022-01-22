@@ -15,7 +15,7 @@ function Form() {
                     <input type="text" placeholder='Contact No.' />
                     <input type="email" placeholder='Email ID' />
                     <input type="date" />
-                    <input type="number" placeholder='0' />
+                    <input type="number" placeholder='No. of Seats' />
                 </div>
                 <input className='form_btn' type="submit" value="Submit" />
             </form>

@@ -1,12 +1,12 @@
 .form_container {
     margin: 5vh 15vw;
-    padding: 5vh 5vw;
+    padding: 5vh 2vw;
     text-align: center;
     box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
     position: relative;
 }
 .form_container h3 {
-    font-size: 45px;
+    font-size: 36px;
     font-weight: 700;
     text-transform: uppercase;
     position: absolute;
@@ -29,11 +29,24 @@ input {
     outline: none;
     margin: 10px;
     font-size: 16px;
+    border-radius: 4px;
 }
 .form_btn {
     border-radius: 30px;
     padding: 20px 40px;
     color: #fff;
+    letter-spacing: 1px;
     font-weight: 600;
     background: -webkit-linear-gradient(left, #25a1c3 0, #64bc5b 100%);
+    cursor: pointer;
+}
+@media screen and (min-width: 600px) {
+    .form_container h3 {
+        font-size: 45px;
+    }
+}
+@media screen and (min-width: 1150px) {
+    .form_container {
+        margin: 5vh 25vw;
+    }
 }
