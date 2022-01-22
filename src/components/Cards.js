@@ -15,7 +15,7 @@ function Cards() {
                 <CardItem
                     src='images/burger.jpg'
                     text='Crispy Burger'
-                    price='$20'
+                    price='$10'
                     details='Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, soluta!'
                 />
             </div>
