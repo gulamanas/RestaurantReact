@@ -1,5 +1,22 @@
 .carousel_img {
     width: 100%;
     object-fit: cover;
-    height: 90vh;
+    height: 80vh;
+    padding: 10px;
+    margin-top: 8vh;
+}
+@media screen and (max-width: 1068px) {
+    .carousel_img {
+        height: 60vh;
+    }
+}
+@media screen and (max-width: 750px) {
+    .carousel_img {
+        height: 40vh;
+    }
+}
+@media screen and (max-width: 480px) {
+    .carousel_img {
+        height: 30vh;
+    }
 }
