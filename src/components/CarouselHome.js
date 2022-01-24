@@ -11,6 +11,7 @@ function CarouselHome() {
                 infiniteLoop={true}
                 interval={3000}
                 showStatus={false}
+                showThumbs={false}
             >
                 <div >
                     <img className='carousel_img' src="/images/burger.jpg" />
